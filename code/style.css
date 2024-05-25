@@ -19,7 +19,7 @@ header{
       padding: 20px 10%;
 }
 .me {
-   max-width: 100px;
+   max-width: 150px;
    height: auto;
    padding: left;
 }
@@ -181,6 +181,7 @@ header.sticky{
     position: absolute;
     right: 0;
     font-size: 20px;
+    padding-top: 20px;
 }
 .heart-icon:hover{
     color: #EE1C47;
@@ -300,7 +301,7 @@ header.sticky{
     color: #565656;
     font-size: 14px;
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: none;
     line-height: 1.5;
     margin-bottom: 10px;
     cursor: pointer;
@@ -312,6 +313,7 @@ header.sticky{
 .social-icon i{
     color: #565656;
     margin-right: 10px;
+    margin-left: -10px;
     font-size: 20px;
     transition: all .42s;
 }
